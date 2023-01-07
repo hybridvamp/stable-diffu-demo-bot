@@ -1,2 +1,2 @@
-telethon==1.17.0
-replicate==0.4.3
+telethon
+replicate
