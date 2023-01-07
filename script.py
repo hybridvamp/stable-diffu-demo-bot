@@ -7,7 +7,7 @@ api_token = os.environ["REPLICATE_API_TOKEN"]
 replicate.api_key = api_token
 
 # Set up the Telethon client
-bot_token = YOUR_BOT_TOKEN
+bot_token = os.environ["BOT_TOKEN"]
 client = telethon.TelegramClient(bot_token=bot_token)
 
 # Connect to Telegram and print the bot's username
