@@ -6,7 +6,6 @@ RUN pip install -r requirements.txt
 
 # Copy the script and the .env file
 COPY script.py .
-COPY .env .
 
 # Run the script
 CMD ["python", "script.py"]
